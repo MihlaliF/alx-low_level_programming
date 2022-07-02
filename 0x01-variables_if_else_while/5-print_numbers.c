@@ -11,9 +11,10 @@
 int main(void)
 {
 	char ch;
+
 	for (ch = '0'; ch <= '9'; ch++)
-		putcher(ch);
-	putcher('\n');
+		putchar(ch);
+	putchar('\n');
 
 	return (0);
 }
