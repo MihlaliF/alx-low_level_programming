@@ -14,5 +14,5 @@ void print_most_numbers(void)
 			_putchar((i % 10) + '0');
 	}
 
-	-putchar('\n');
+	_putchar('\n');
 }
