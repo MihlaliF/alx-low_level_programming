@@ -9,12 +9,12 @@
 
 void *malloc_checkout(unsigned int b)
 {
-	void *s;
+	void *ptr;
 
-	s  malloc(b);
+	ptr = malloc(b);
 
-	if (s == NULL)
+	if (ptr == NULL)
 		exit(98);
 
-	return (s);
+	return (ptr);
 }
